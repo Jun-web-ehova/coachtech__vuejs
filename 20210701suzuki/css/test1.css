@@ -1,0 +1,21 @@
+input {
+  display: none;
+}
+
+.tab__item {
+  width: 20%;
+  height: 70px;
+  font-size: 24px;
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  border: 1px solid #ccc;
+}
+input:checked + .tab__item {
+  color: white;
+  background-color: black;
+}
+.content p {
+  padding: 50px;
+  font-size: 24px;
+}
